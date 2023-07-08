@@ -1,0 +1,130 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/assets/uofm.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 20
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 30
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Join
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-right
+  x = -37
+  action = movebutton
+  y = 12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-right
+  x = -37
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = fc61f2f0-09c8-4efa-ad97-a4ce1f559f781688743585224
+  y = 264
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 359
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a8ad446e-4a41-4ed4-88fd-dad20e6ffae41688743585228
+  y = 169
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 119
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = a21fe86c-370f-41c6-98d0-6c09f8f759521688743585228
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 693689c1-1919-42bc-8022-588e8bcadc8d1688743585229
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;mc.techeron.com%btnaction_splitter_fm%
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = ba2fd2bb-49d1-48d8-9364-b4b2e3c6a8cf1688743766074
+  y = -10
+  label = UofM Server
+  height = 20
+}
+
