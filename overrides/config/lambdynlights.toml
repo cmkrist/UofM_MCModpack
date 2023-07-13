@@ -25,20 +25,28 @@ mode = "fancy"
 				chicken = true
 				bee = true
 				axolotl = true
+				arrow = true
 				cow = true
 				tropical_fish = true
+				fox = true
 				pig = true
 				slime = true
 				pillager = true
 				skeleton = true
 				bat = true
+				area_effect_cloud = true
+				rabbit = true
 				zombie = true
+				armor_stand = true
+				drowned = true
 				sheep = true
+				experience_orb = true
 				player = true
 				item = true
 				wolf = true
 				salmon = true
 				zombie_villager = true
+				goat = true
 				boat = true
 				item_frame = true
 				painting = true
@@ -55,8 +63,11 @@ mode = "fancy"
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
+				iceologer = true
 
 			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				dripstone_creeper = true
 				cave_creeper = true
 				spruce_creeper = true
 

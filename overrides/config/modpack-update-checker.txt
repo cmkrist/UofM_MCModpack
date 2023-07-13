@@ -1,8 +1,8 @@
 Github Repo URL (MUST END URL WITH A SLASH):
-https://raw.githubusercontent.com/Jab125/TestModpackUpdateChecker/main/
+https://raw.githubusercontent.com/cmkrist/UofM_MCModpack/main/
 Current Modpack Version
-1.0.0
+1.1.0
 Modpack Name:
-Modpack Name Goes Here
+UofM Minecraft Modpack
 Expand Button (y/n) (doesn't reposition the button!):
 n

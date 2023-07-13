@@ -53,6 +53,9 @@
   "minecraft:fluid_storage": null,
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
+  "polymer:blockstate": null,
+  "polymer:entities": null,
+  "toms_trading_network:vending_machine": null,
   "ae2:server_data": null,
   "ae2:charger": null,
   "ae2:crafting_monitor": null,
@@ -106,5 +109,8 @@
   "minecraft:item_storage": null,
   "minecraft:fluid_storage": null,
   "minecraft:energy_storage": null,
-  "minecraft:progress": null
+  "minecraft:progress": null,
+  "polymer:blockstate": null,
+  "polymer:entities": null,
+  "toms_trading_network:vending_machine": null
 }
